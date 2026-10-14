@@ -8,18 +8,12 @@ How to pay for AI compute: where the capital comes from, how to make a GPU or da
 
 ## Frameworks
 
-**Financing tree.** Every source of capital for GPUs and data centers, from VC and vendor financing to GPU-backed loans, SPV project bonds and ABS, plus the credit enhancements that make them work: backstops, prepayments, take-or-pay contracts, reserves, insurance and PPAs. Also covers federal, state and public incentives (bonus depreciation, R&D credit, sales tax exemptions, opportunity zones).
+**Financing tree.** Details sources of capital to finance GPUs/data centers (e.g., vendor financing, leases, SPV and ABS structures) and credit enhancement strategies (e.g., debt structuring, cash flow enhancements, credit support, and risk transfer mechanisms).
 
-**Compute procurement.** Four ways to get compute, side by side on capital, speed, control, cost, risk, financing route and who to call:
-
-| Rent from cloud | Colo + own GPUs | Modular data center | Own powered shell |
-|---|---|---|---|
-| Days to start, highest per-hour cost | Months, lower cost, you carry GPU residual risk | Months, cheap or stranded power | 1–3 years, lowest cost at scale |
+**Compute procurement.** Details the strategic/financial trade-offs when deciding how to procure compute via renting from a cloud, colocation + own GPUs, building a modular data center, and building a turnkey powered shell + GPUs.
 
 ## Financial Modelers
 
-A live per-GPU model for each of the four structures, plus a tab comparing them side by side. Change any input (prices, utilization, contract terms, leverage, capex, timing) and returns, breakeven, the cash flow schedule and the sensitivity grids all recompute. Pick any input for a one-way sensitivity table, or any two for a heat map.
+Models for each of the four structures. Change any input (e.g., GPU and facility capex, financing structures, compute sale structures, GPU market trends, and operating costs) and analyze the impact on returns, payback periods, cash flow schedules, and sensitivities to key variables.
 
 ---
-
-*Defaults are illustrative starting points, not forecasts. Market data, programs and company lists are as of October 2026.*
