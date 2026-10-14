@@ -4,8 +4,6 @@ Follow the below link to view the interactive dashboard:
 
 [View Interactive Dashboard](https://gautams01.github.io/Compute-Financing-Guide/compute-financing-guide.html)
 
-How to pay for AI compute: where the capital comes from, how to make a GPU or data center deal bankable, and how to model the economics of each way of getting compute.
-
 ## Frameworks
 
 **Financing tree.** Details sources of capital to finance GPUs/data centers (e.g., vendor financing, leases, SPV and ABS structures) and credit enhancement strategies (e.g., debt structuring, cash flow enhancements, credit support, and risk transfer mechanisms).
