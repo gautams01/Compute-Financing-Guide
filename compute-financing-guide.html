@@ -376,18 +376,26 @@ table.tw td.base{outline:2px solid #000;outline-offset:-2px;font-weight:700}
 .tab[aria-selected="true"]{border-bottom-color:var(--accent);background:var(--tint)}
 .tab[aria-selected="true"] b{color:var(--accent)}
 .tab:focus-visible{outline:2px solid var(--accent);outline-offset:-2px}
+.tgroup{display:flex;flex-direction:column;flex:none}
+.tgroup+.tgroup{border-left:1px solid var(--line);padding-left:6px}
+.tglabel{font-family:var(--display);font-weight:700;font-size:9.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);padding:7px 14px 0}
+.tgtabs{display:flex;gap:0 6px;flex:1}
 </style>
 </head>
 <body>
-<nav class="topbar" role="tablist" aria-label="Views">
+<nav class="topbar" aria-label="Views">
   <div class="brand">Compute Financing Guide</div>
+  <div class="tgroup"><div class="tglabel" id="g-frame">Frameworks</div><div class="tgtabs" role="tablist" aria-labelledby="g-frame">
   <button type="button" class="tab" role="tab" id="t-tree" data-tab="tree" aria-controls="tab-tree" aria-selected="true"><b>Financing tree</b><span>sources of capital &amp; credit enhancements</span></button>
   <button type="button" class="tab" role="tab" id="t-proc" data-tab="procurement" aria-controls="tab-proc" aria-selected="false"><b>Compute procurement</b><span>rent, colo, modular or build</span></button>
+  </div></div>
+  <div class="tgroup"><div class="tglabel" id="g-model">Financial Modelers</div><div class="tgtabs" role="tablist" aria-labelledby="g-model">
   <button type="button" class="tab" role="tab" id="t-cloud" data-tab="cloud" aria-controls="tab-cloud" aria-selected="false"><b>Rent from cloud</b><span>reserved vs on-demand</span></button>
   <button type="button" class="tab" role="tab" id="t-unit" data-tab="unit" aria-controls="tab-unit" aria-selected="false"><b>Colo + own GPUs</b><span>returns on one contracted GPU</span></button>
   <button type="button" class="tab" role="tab" id="t-modular" data-tab="modular" aria-controls="tab-modular" aria-selected="false"><b>Modular data center</b><span>own modules + GPUs</span></button>
   <button type="button" class="tab" role="tab" id="t-shell" data-tab="shell" aria-controls="tab-shell" aria-selected="false"><b>Own powered shell</b><span>build the facility</span></button>
   <button type="button" class="tab" role="tab" id="t-compare" data-tab="compare" aria-controls="tab-compare" aria-selected="false"><b>Compare</b><span>all four models side by side</span></button>
+  </div></div>
 </nav>
 <section id="tab-tree" class="xl" role="tabpanel" aria-labelledby="t-tree">
 <div class="wrap">
