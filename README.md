@@ -1,6 +1,6 @@
 # Compute Financing Guide
 
-### [▶ Open the interactive dashboard](https://raw.githack.com/gautams01/Compute-Financing-Guide/main/compute-financing-guide.html)
+### [▶ Open the interactive dashboard](https://gautams01.github.io/Compute-Financing-Guide/compute-financing-guide.html)
 
 How to pay for AI compute: where the capital comes from, how to make a GPU or data center deal bankable, and what each way of getting compute actually returns.
 
